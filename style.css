@@ -2,3 +2,15 @@
     background-image: url("https://picsum.photos/1300/500");
     background-position: center center;
 }
+
+/*footer hover */
+.footerhover:hover{
+    animation: bounce .3s infinite alternate;
+    
+}
+
+@keyframes bounce {
+    to { transform: scale(1.2); }
+  }
+/*footer hover  */
+  
