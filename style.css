@@ -1,3 +1,9 @@
+body{
+  background-color: grey;
+}
+
+
+
 .bg-hero-img{
     background-image: url("https://picsum.photos/1300/500");
     background-position: center center;
@@ -12,5 +18,97 @@
 @keyframes bounce {
     to { transform: scale(1.2); }
   }
+
+  .footerstyle{
+
+  }
 /*footer hover  */
-  
+
+
+/* Navbar hover */
+
+
+
+.link-cont {
+  position: relative;
+  font-size: 24px;
+}
+.link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.link-wrapper {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+}
+.inner-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-6:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  height: 3px;
+  background-color: #20C2F7;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s;
+}
+.hover-6:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  height: 3px;
+  background-color: #20C2F7;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+.hover-6:hover:before {
+  transform: scaleX(1);
+}
+.hover-6:hover:after {
+  transform: scaleX(1);
+}
+/* Navbar end */
+
+/* card */
+.card {
+  width: 18rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: background-color 3s;
+}
+
+.btn-primary:hover {
+  background-color: purple;
+  transition: 1s;
+}
+
+
+
+
+
+
