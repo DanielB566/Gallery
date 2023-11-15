@@ -2,6 +2,10 @@ body{
   background-color: grey;
 }
 
+.header{
+  padding: 25px;
+}
+
 
 
 .bg-hero-img{
@@ -9,7 +13,7 @@ body{
     background-position: center center;
 }
 
-/*footer hover */
+/*footer hover/footerstyle */
 .footerhover:hover{
     animation: bounce .3s infinite alternate;
     
@@ -20,7 +24,7 @@ body{
   }
 
   .footerstyle{
-
+    bottom: 0;
   }
 /*footer hover  */
 
@@ -106,9 +110,4 @@ body{
   background-color: purple;
   transition: 1s;
 }
-
-
-
-
-
 
