@@ -9,7 +9,7 @@ body{
 
 
 .bg-hero-img{
-    background-image: url("https://picsum.photos/1300/500");
+    background-image: url("galaxy.webp");
     background-position: center center;
 }
 
@@ -87,7 +87,7 @@ body{
 
 /* card */
 .card {
-  width: 18rem;
+  width: 22rem;
   border: 2px solid black;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
