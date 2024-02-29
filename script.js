@@ -1,3 +1,3 @@
-function Alertone() {
+function comingsoon() {
     alert("Website Coming Soon!");
   }
